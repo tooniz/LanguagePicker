@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD248ED91936FC6800922A18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD248ED81936FC6800922A18 /* Foundation.framework */; };
+		FD248EDB1936FC6800922A18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD248EDA1936FC6800922A18 /* CoreGraphics.framework */; };
+		FD248EDD1936FC6800922A18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD248EDC1936FC6800922A18 /* UIKit.framework */; };
+		FD248EE31936FC6800922A18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD248EE11936FC6800922A18 /* InfoPlist.strings */; };
+		FD248EE51936FC6800922A18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD248EE41936FC6800922A18 /* main.m */; };
+		FD248EE91936FC6800922A18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD248EE81936FC6800922A18 /* AppDelegate.m */; };
+		FD248EEC1936FC6800922A18 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD248EEA1936FC6800922A18 /* Main_iPhone.storyboard */; };
+		FD248EEF1936FC6800922A18 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD248EED1936FC6800922A18 /* Main_iPad.storyboard */; };
+		FD248EF21936FC6800922A18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD248EF11936FC6800922A18 /* ViewController.m */; };
+		FD248EF41936FC6800922A18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD248EF31936FC6800922A18 /* Images.xcassets */; };
+		FD248EFB1936FC6800922A18 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD248EFA1936FC6800922A18 /* XCTest.framework */; };
+		FD248EFC1936FC6800922A18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD248ED81936FC6800922A18 /* Foundation.framework */; };
+		FD248EFD1936FC6800922A18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD248EDC1936FC6800922A18 /* UIKit.framework */; };
+		FD248F051936FC6800922A18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD248F031936FC6800922A18 /* InfoPlist.strings */; };
+		FD248F071936FC6800922A18 /* LanguagePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD248F061936FC6800922A18 /* LanguagePickerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD248EFE1936FC6800922A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD248ECD1936FC6800922A18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD248ED41936FC6800922A18;
+			remoteInfo = LanguagePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD248ED51936FC6800922A18 /* LanguagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD248ED81936FC6800922A18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD248EDA1936FC6800922A18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FD248EDC1936FC6800922A18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD248EE01936FC6800922A18 /* LanguagePicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LanguagePicker-Info.plist"; sourceTree = "<group>"; };
+		FD248EE21936FC6800922A18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD248EE41936FC6800922A18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD248EE61936FC6800922A18 /* LanguagePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LanguagePicker-Prefix.pch"; sourceTree = "<group>"; };
+		FD248EE71936FC6800922A18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD248EE81936FC6800922A18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD248EEB1936FC6800922A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FD248EEE1936FC6800922A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		FD248EF01936FC6800922A18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD248EF11936FC6800922A18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD248EF31936FC6800922A18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD248EF91936FC6800922A18 /* LanguagePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguagePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD248EFA1936FC6800922A18 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FD248F021936FC6800922A18 /* LanguagePickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LanguagePickerTests-Info.plist"; sourceTree = "<group>"; };
+		FD248F041936FC6800922A18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD248F061936FC6800922A18 /* LanguagePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguagePickerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD248ED21936FC6800922A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD248EDB1936FC6800922A18 /* CoreGraphics.framework in Frameworks */,
+				FD248EDD1936FC6800922A18 /* UIKit.framework in Frameworks */,
+				FD248ED91936FC6800922A18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD248EF61936FC6800922A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD248EFB1936FC6800922A18 /* XCTest.framework in Frameworks */,
+				FD248EFD1936FC6800922A18 /* UIKit.framework in Frameworks */,
+				FD248EFC1936FC6800922A18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD248ECC1936FC6800922A18 = {
+			isa = PBXGroup;
+			children = (
+				FD248EDE1936FC6800922A18 /* LanguagePicker */,
+				FD248F001936FC6800922A18 /* LanguagePickerTests */,
+				FD248ED71936FC6800922A18 /* Frameworks */,
+				FD248ED61936FC6800922A18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD248ED61936FC6800922A18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD248ED51936FC6800922A18 /* LanguagePicker.app */,
+				FD248EF91936FC6800922A18 /* LanguagePickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD248ED71936FC6800922A18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD248ED81936FC6800922A18 /* Foundation.framework */,
+				FD248EDA1936FC6800922A18 /* CoreGraphics.framework */,
+				FD248EDC1936FC6800922A18 /* UIKit.framework */,
+				FD248EFA1936FC6800922A18 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD248EDE1936FC6800922A18 /* LanguagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				FD248EE71936FC6800922A18 /* AppDelegate.h */,
+				FD248EE81936FC6800922A18 /* AppDelegate.m */,
+				FD248EEA1936FC6800922A18 /* Main_iPhone.storyboard */,
+				FD248EED1936FC6800922A18 /* Main_iPad.storyboard */,
+				FD248EF01936FC6800922A18 /* ViewController.h */,
+				FD248EF11936FC6800922A18 /* ViewController.m */,
+				FD248EF31936FC6800922A18 /* Images.xcassets */,
+				FD248EDF1936FC6800922A18 /* Supporting Files */,
+			);
+			path = LanguagePicker;
+			sourceTree = "<group>";
+		};
+		FD248EDF1936FC6800922A18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD248EE01936FC6800922A18 /* LanguagePicker-Info.plist */,
+				FD248EE11936FC6800922A18 /* InfoPlist.strings */,
+				FD248EE41936FC6800922A18 /* main.m */,
+				FD248EE61936FC6800922A18 /* LanguagePicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD248F001936FC6800922A18 /* LanguagePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD248F061936FC6800922A18 /* LanguagePickerTests.m */,
+				FD248F011936FC6800922A18 /* Supporting Files */,
+			);
+			path = LanguagePickerTests;
+			sourceTree = "<group>";
+		};
+		FD248F011936FC6800922A18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD248F021936FC6800922A18 /* LanguagePickerTests-Info.plist */,
+				FD248F031936FC6800922A18 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD248ED41936FC6800922A18 /* LanguagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD248F0A1936FC6800922A18 /* Build configuration list for PBXNativeTarget "LanguagePicker" */;
+			buildPhases = (
+				FD248ED11936FC6800922A18 /* Sources */,
+				FD248ED21936FC6800922A18 /* Frameworks */,
+				FD248ED31936FC6800922A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LanguagePicker;
+			productName = LanguagePicker;
+			productReference = FD248ED51936FC6800922A18 /* LanguagePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD248EF81936FC6800922A18 /* LanguagePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD248F0D1936FC6800922A18 /* Build configuration list for PBXNativeTarget "LanguagePickerTests" */;
+			buildPhases = (
+				FD248EF51936FC6800922A18 /* Sources */,
+				FD248EF61936FC6800922A18 /* Frameworks */,
+				FD248EF71936FC6800922A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD248EFF1936FC6800922A18 /* PBXTargetDependency */,
+			);
+			name = LanguagePickerTests;
+			productName = LanguagePickerTests;
+			productReference = FD248EF91936FC6800922A18 /* LanguagePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD248ECD1936FC6800922A18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Equippd Software";
+				TargetAttributes = {
+					FD248EF81936FC6800922A18 = {
+						TestTargetID = FD248ED41936FC6800922A18;
+					};
+				};
+			};
+			buildConfigurationList = FD248ED01936FC6800922A18 /* Build configuration list for PBXProject "LanguagePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD248ECC1936FC6800922A18;
+			productRefGroup = FD248ED61936FC6800922A18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD248ED41936FC6800922A18 /* LanguagePicker */,
+				FD248EF81936FC6800922A18 /* LanguagePickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD248ED31936FC6800922A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD248EEF1936FC6800922A18 /* Main_iPad.storyboard in Resources */,
+				FD248EF41936FC6800922A18 /* Images.xcassets in Resources */,
+				FD248EEC1936FC6800922A18 /* Main_iPhone.storyboard in Resources */,
+				FD248EE31936FC6800922A18 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD248EF71936FC6800922A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD248F051936FC6800922A18 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD248ED11936FC6800922A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD248EF21936FC6800922A18 /* ViewController.m in Sources */,
+				FD248EE91936FC6800922A18 /* AppDelegate.m in Sources */,
+				FD248EE51936FC6800922A18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD248EF51936FC6800922A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD248F071936FC6800922A18 /* LanguagePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD248EFF1936FC6800922A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD248ED41936FC6800922A18 /* LanguagePicker */;
+			targetProxy = FD248EFE1936FC6800922A18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD248EE11936FC6800922A18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD248EE21936FC6800922A18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FD248EEA1936FC6800922A18 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD248EEB1936FC6800922A18 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FD248EED1936FC6800922A18 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD248EEE1936FC6800922A18 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FD248F031936FC6800922A18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD248F041936FC6800922A18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD248F081936FC6800922A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD248F091936FC6800922A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD248F0B1936FC6800922A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LanguagePicker/LanguagePicker-Prefix.pch";
+				INFOPLIST_FILE = "LanguagePicker/LanguagePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FD248F0C1936FC6800922A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LanguagePicker/LanguagePicker-Prefix.pch";
+				INFOPLIST_FILE = "LanguagePicker/LanguagePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FD248F0E1936FC6800922A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LanguagePicker.app/LanguagePicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LanguagePicker/LanguagePicker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LanguagePickerTests/LanguagePickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FD248F0F1936FC6800922A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LanguagePicker.app/LanguagePicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LanguagePicker/LanguagePicker-Prefix.pch";
+				INFOPLIST_FILE = "LanguagePickerTests/LanguagePickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD248ED01936FC6800922A18 /* Build configuration list for PBXProject "LanguagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD248F081936FC6800922A18 /* Debug */,
+				FD248F091936FC6800922A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD248F0A1936FC6800922A18 /* Build configuration list for PBXNativeTarget "LanguagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD248F0B1936FC6800922A18 /* Debug */,
+				FD248F0C1936FC6800922A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD248F0D1936FC6800922A18 /* Build configuration list for PBXNativeTarget "LanguagePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD248F0E1936FC6800922A18 /* Debug */,
+				FD248F0F1936FC6800922A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD248ECD1936FC6800922A18 /* Project object */;
+}
