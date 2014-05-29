@@ -41,7 +41,8 @@
 }
 
 - (IBAction)supportedList:(id)sender {
-    // Note only the union of supportedCodes array and [NSLocal ISOLanguageCodes] array will end up being displayed
+    // Note only the intersection of supportedCodes array and [NSLocal ISOLanguageCodes] array will end up being displayed
+    // This way only NSLocale supported languages get used, may be confusing to the user but this way all names will be localized
     self.languagePicker.supportedCodes = [[NSArray alloc] initWithObjects:kMSTranslateSupported, nil];
     [self.languagePicker reloadAllComponents];
 }
