@@ -1,7 +1,9 @@
 LanguagePicker
 ==============
 
-A language picker using UIPickerView from iOS7+
+A language picker using UIPickerView from iOS7+. It is fully localized, can be used as a default list of languages or a supported list of languages.
+
+All languages are based on ISO 639 language code standard (http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 
 Supported iOS & SDK Versions
 -----------------------------
