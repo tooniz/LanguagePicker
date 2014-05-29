@@ -48,5 +48,4 @@ This method is called whenever a country is selected in the picker.
 
 Acknowledgement
 --------------------------------
-This project is based on CountryPicker by Nick Lockwood
-https://github.com/nicklockwood/CountryPicker
+This project is based on CountryPicker by Nick Lockwood (https://github.com/nicklockwood/CountryPicker)
