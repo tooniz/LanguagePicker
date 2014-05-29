@@ -45,3 +45,8 @@ The LanguagePickerDelegate protocol has a single obligatory method:
 	- (void)countryPicker:(LanguagePicker *)picker didSelectLanguageWithName:(NSString *)name code:(NSString *)code;
 
 This method is called whenever a country is selected in the picker.
+
+Acknowledgement
+--------------------------------
+This project is based on CountryPicker by Nick Lockwood
+https://github.com/nicklockwood/CountryPicker
