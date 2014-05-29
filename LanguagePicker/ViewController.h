@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EqpLanguagePicker.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <EqpLanguagePickerDelegate>
 
+@property (weak, nonatomic) IBOutlet UILabel *languagePicked;
+@property (weak, nonatomic) IBOutlet EqpLanguagePicker *languagePicker;
+
+- (IBAction)isoCodes:(id)sender;
+- (IBAction)supportedList:(id)sender;
 @end

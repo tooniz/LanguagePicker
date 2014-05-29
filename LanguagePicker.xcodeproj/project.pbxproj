@@ -22,6 +22,7 @@
 		FD248EFD1936FC6800922A18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD248EDC1936FC6800922A18 /* UIKit.framework */; };
 		FD248F051936FC6800922A18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD248F031936FC6800922A18 /* InfoPlist.strings */; };
 		FD248F071936FC6800922A18 /* LanguagePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD248F061936FC6800922A18 /* LanguagePickerTests.m */; };
+		FD248F14193706CD00922A18 /* EqpLanguagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FD248F13193706CD00922A18 /* EqpLanguagePicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		FD248F021936FC6800922A18 /* LanguagePickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LanguagePickerTests-Info.plist"; sourceTree = "<group>"; };
 		FD248F041936FC6800922A18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FD248F061936FC6800922A18 /* LanguagePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguagePickerTests.m; sourceTree = "<group>"; };
+		FD248F12193706CD00922A18 /* EqpLanguagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EqpLanguagePicker.h; sourceTree = "<group>"; };
+		FD248F13193706CD00922A18 /* EqpLanguagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqpLanguagePicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 		FD248EDE1936FC6800922A18 /* LanguagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				FD248F111937069300922A18 /* EqpLanguagePicker */,
+				FD248F101936FD4800922A18 /* LanguagePicker */,
 				FD248EE71936FC6800922A18 /* AppDelegate.h */,
 				FD248EE81936FC6800922A18 /* AppDelegate.m */,
 				FD248EEA1936FC6800922A18 /* Main_iPhone.storyboard */,
@@ -153,6 +158,22 @@
 				FD248F031936FC6800922A18 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD248F101936FD4800922A18 /* LanguagePicker */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LanguagePicker;
+			sourceTree = "<group>";
+		};
+		FD248F111937069300922A18 /* EqpLanguagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				FD248F12193706CD00922A18 /* EqpLanguagePicker.h */,
+				FD248F13193706CD00922A18 /* EqpLanguagePicker.m */,
+			);
+			name = EqpLanguagePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +276,7 @@
 			files = (
 				FD248EF21936FC6800922A18 /* ViewController.m in Sources */,
 				FD248EE91936FC6800922A18 /* AppDelegate.m in Sources */,
+				FD248F14193706CD00922A18 /* EqpLanguagePicker.m in Sources */,
 				FD248EE51936FC6800922A18 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

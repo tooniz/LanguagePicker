@@ -8,6 +8,15 @@
 
 #import "ViewController.h"
 
+// List of supported languages in Microsoft Translator
+#define kMSTranslateSupported \
+@"ar",@"bg",@"ca",@"zh",@"zh-CHS",@"zh-CHT",@"cs", \
+@"cy",@"da",@"nl",@"en",@"et",@"fi",@"fr",@"de", \
+@"el",@"ht",@"he",@"hi",@"mww",@"hu",@"id",@"it", \
+@"ja",@"tlh",@"tlh-Qaak",@"ko",@"lv",@"lt",@"ms", \
+@"mt",@"no",@"fa",@"pl",@"pt",@"ro",@"ru",@"sk", \
+@"sl",@"es",@"sv",@"th",@"tr",@"uk",@"ur",@"vi"
+
 @interface ViewController ()
 
 @end
@@ -17,13 +26,30 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.languagePicker.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)isoCodes:(id)sender {
+    self.languagePicker.supportedCodes = nil;
+    [self.languagePicker reloadAllComponents];
+}
+
+- (IBAction)supportedList:(id)sender {
+    // Note only the union of supportedCodes array and [NSLocal ISOLanguageCodes] array will end up being displayed
+    self.languagePicker.supportedCodes = [[NSArray alloc] initWithObjects:kMSTranslateSupported, nil];
+    [self.languagePicker reloadAllComponents];
+}
+
+#pragma mark - EqpLanguagePicker Delegate Methods
+- (void)EqpLanguagePicker:(EqpLanguagePicker *)picker didSelectLanguageWithName:(NSString *)name code:(NSString *)code
+{
+    self.languagePicked.text = name;
 }
 
 @end
